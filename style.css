@@ -72,6 +72,7 @@ main .containerPortologistica button {
   color: #FFFFFF;
   font-weight: 300;
   font-size: 1.35rem;
+  margin-top: 30px;
 }
 main .containerGestaoPortuaria {
   height: 140vh;
