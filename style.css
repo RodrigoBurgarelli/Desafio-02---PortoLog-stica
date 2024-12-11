@@ -76,7 +76,6 @@ main .containerPortologistica button {
 }
 main .containerGestaoPortuaria {
   height: 140vh;
-  border: solid purple;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -97,35 +96,34 @@ main .containerGestaoPortuaria article h3 {
   color: #0017E9;
   font-weight: 500;
   font-size: 1.5rem;
-  font-family: oswald;
+  font-family: Oswald;
   margin-bottom: 2rem;
 }
 main .containerGestaoPortuaria article h2 {
   color: #000000;
   font-weight: 800;
   font-size: 2.25rem;
-  font-family: roboto;
+  font-family: Roboto;
   margin-bottom: 4rem;
 }
 main .containerGestaoPortuaria article p {
   color: #000000;
   font-weight: 400;
   font-size: 1.5rem;
-  font-family: roboto;
+  font-family: Roboto;
   margin-bottom: 2.5rem;
 }
 main .containerGestaoPortuaria article a {
   color: #0017E9;
   font-weight: 400;
   font-size: 1.5rem;
-  font-family: roboto;
+  font-family: Roboto;
 }
 main .containerGestaoPortuaria img {
   height: 90vh;
   width: 45vw;
 }
 main .containerSolucoes {
-  border: solid gold;
   height: 120vh;
   background-color: lightgray;
   display: flex;
@@ -133,26 +131,148 @@ main .containerSolucoes {
   justify-content: space-evenly;
   align-items: center;
 }
-main .containerSolucoes .containerTopoSoucoes {
-  height: 20%;
-  border: solid purple;
+main .containerSolucoes .topoSolucoes {
+  height: 20vh;
   text-align: center;
 }
-main .containerSolucoes .containerTopoSoucoes h2 {
-  color: #0017E9;
+main .containerSolucoes .topoSolucoes h3 {
+  color: #0016DF;
   font-weight: 500;
   font-size: 1.5rem;
-  font-family: oswald;
+  font-family: Oswald;
 }
-main .containerSolucoes .containerTopoSoucoes h3 {
+main .containerSolucoes .topoSolucoes h4 {
   color: #000000;
   font-weight: 500;
   font-size: 1.5rem;
-  font-family: oswald;
+  font-family: Oswald;
+  margin-top: 2rem;
 }
 main .containerSolucoes .containerDentroSolucoes {
-  width: 70%;
+  width: 100%;
+  height: 70vh;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+main .containerSolucoes .containerDentroSolucoes article {
+  width: 25vw;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 0 3px rgba(128, 128, 128, 0.4);
+}
+main .containerSolucoes .containerDentroSolucoes article img {
+  width: 100%;
+  height: 60%;
+}
+main .containerSolucoes .containerDentroSolucoes article h3 {
+  color: #000000;
+  font-weight: 500;
+  font-size: 1.5rem;
+  font-family: Oswald;
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+}
+main .containerSolucoes .containerDentroSolucoes article p {
+  color: #000000;
+  font-weight: 200;
+  font-size: 1.5rem;
+  font-family: Oswald;
+  padding: 1.5rem;
+}
+main .containerAtendimentoFale {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+}
+main .containerAtendimentoFale .containerAten {
+  width: 45vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-transform: uppercase;
+}
+main .containerAtendimentoFale .containerAten figcaption {
+  font-family: Oswald;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+main .containerAtendimentoFale .containerAten h2 {
+  font-family: Oswald;
+  color: #0017E9;
+  font-weight: 500;
+  font-size: 2rem;
+  margin-left: 4rem;
+}
+main .containerAtendimentoFale .containerAten h3 {
+  font-family: Oswald;
+  color: #000000;
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-left: 4rem;
+}
+main .containerAtendimentoFale .containerAten .containerImagens1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+main .containerAtendimentoFale .containerAten .containerImagens2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+main .containerAtendimentoFale .containerFaleCom {
+  width: 30vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-transform: uppercase;
+}
+main .containerAtendimentoFale .containerFaleCom h2 {
+  font-family: Oswald;
+  color: #0017E9;
+  font-weight: 500;
+  font-size: 2rem;
+}
+main .containerAtendimentoFale .containerFaleCom h3 {
+  font-family: Oswald;
+  color: #000000;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+main .containerAtendimentoFale .containerFaleCom form {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+main .containerAtendimentoFale .containerFaleCom form input {
+  width: 21vw;
+  height: 7vh;
+  margin-top: 0%;
+}
+main .containerAtendimentoFale .containerFaleCom form label {
+  font-family: Oswald;
+  font-weight: 300;
+  font-size: 1.25rem;
+}
+main .containerAtendimentoFale .containerFaleCom form button {
+  width: 20vw;
+  height: 7vh;
+  margin-top: 3rem;
+  background-color: #0017E9;
+  color: #FFFFFF;
+}
+
+footer {
+  background-color: #D8D8D8;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer h3 {
+  font-family: Oswald;
+  color: #000000;
+  font-weight: 700;
+  font-size: 0.875rem;
 }/*# sourceMappingURL=style.css.map */
